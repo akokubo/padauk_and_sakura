@@ -1,0 +1,19 @@
+# データベース
+*.sqlite
+
+# Python仮想環境
+.venv/
+venv/
+ENV/
+
+# Pythonが勝手に作るキャッシュ
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Streamlitの設定
+.streamlit/config.toml
+
+# OSが作る一時ファイル
+.DS_Store
+Thumbs.db
